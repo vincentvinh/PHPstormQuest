@@ -12,12 +12,13 @@ $students = [
     "Eric"      => 48,
     "Nicolas"   => 19
 ];
-print_r($students);
+;
 $tot = 0;
 
 foreach ($students as $key => $value)
 {
     $tot +=$value;
+    echo $key . '=>' . $value . "</br>";
 }
 $nbr = 0;
 $nbr = count($students);
