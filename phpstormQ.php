@@ -12,3 +12,15 @@ $students = [
     "Eric"      => 48,
     "Nicolas"   => 19
 ];
+print_r($students);
+$tot = 0;
+
+foreach ($students as $key => $value)
+{
+    $tot +=$value;
+}
+$nbr = 0;
+$nbr = count($students);
+$moy = 0;
+$moy = $tot / $nbr;
+echo "l'/age moyen est :" . $moy;
